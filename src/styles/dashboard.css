@@ -1,0 +1,29 @@
+.dashboard {
+  /* position: relative; */
+  display: grid;
+  grid-template-rows: 5fr 10fr 5fr;
+  height: 70vh;
+  background-color: var(--bg);
+  gap: 25px;
+  border-radius: 5px;
+}
+.store {
+  display: grid;
+  background-color: var(--bg);
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+.filterss {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  max-height: 100vh;
+}
+
+.main {
+  padding: 1.3rem;
+  max-height: 90vh;
+  overflow-y: scroll;
+}
